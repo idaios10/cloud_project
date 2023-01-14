@@ -1,0 +1,15 @@
+#showcase{
+    background-image: url('images/background.jpg');
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase table {
+    margin-top: 5%;
+    max-width: 100%;
+}
