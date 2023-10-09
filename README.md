@@ -12,21 +12,4 @@ Orion Context Broker	A publish/subscribe service that manages movie subscription
 MySQL	Used by Keyrock to store all the user related data.
 MongoDB	Two instances in the architecture, one that serves backend functionalities for the DataStorage service and stores all the movie and favorite data. The other one for storing the Orion context elements data.
 Mongo Express	(Optional for the execution of the application) A helpful tool that provides a GUI for data management of the MongoDB instances.
-This application is a web-based movie app with 3 type of users.
-
-1. Admins
-Administrators supervise the whole platform, have access to the administration table and can create/update/delete user accounts. In addition, the can enable or disable user access.
-
-ADMIN
-
-2. Cinema Owners
-Cinema owners manage the movies shown in the site. They can create/update/delete movies that belong to their cinemas.
-
-3. Users
-Users can browse the movies provided by the cinema owners, and can create a dedicated favorite movie list for themselves. If they add a movie to their favorite list, they automatically subscribe to it and can receive updates in real time for that particular movie, for example if it's premiere date changes.
-
-HOME
-
-MOVIES
-
-FAVORITES
+This application is a web-based movie app with 3 type of users(admin, shop owner, and simple user). Depending his role every user has the ability to execute different operations and services. 
