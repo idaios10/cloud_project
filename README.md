@@ -1,6 +1,6 @@
-# cloud_project
-CinemaFrontier
-CinemaFrontier is a cloud microservices demo application. It consists of a 9-tier microservices application and is deployed in containers with docker and docker-compose.
+# Eshop
+Eshop
+Eshop is a cloud microservices demo application. It consists of a 9-tier microservices application and is deployed in containers with docker and docker-compose.
 
 Architecture
 Architecture
